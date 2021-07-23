@@ -1,0 +1,8 @@
+
+p {
+    color: blue;
+  }
+
+  label {
+      color: green; /* Global style when ViewEncapsulation.None */
+  }
