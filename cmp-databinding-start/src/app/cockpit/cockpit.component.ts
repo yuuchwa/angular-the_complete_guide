@@ -9,7 +9,7 @@ export class CockpitComponent implements OnInit {
   @Output() serverCreated = new EventEmitter<{serverName: string, serverContent: string}>();
   @Output('bpCreated') blueprintCreated = new EventEmitter<{serverName: string, serverContent: string}>();
   // newServerName = '';
-  @ViewChild('serverContentInput', {static: false}) serverContentInput: ElementRef;
+  @ViewChild('serverContentInput', {static: false}) serverContentInput: ElementRef; // serverContentInput is ein selbsddefinierter local reference
   // newServerContent = '';
   constructor() { }
 
